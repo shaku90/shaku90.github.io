@@ -1,0 +1,139 @@
+/*Header*/
+header {
+  display: flex;
+  background: #7a351a;
+  border-bottom: 1px solid #848484;
+  padding: 10px 50px 10px 50px;
+  color: white;
+  overflow: hidden;
+  justify-content: space-evenly;
+}
+
+header img {
+  float: left;
+  height: 175px;
+  width: 175px;
+  border-radius: 90px;
+  border: solid #fff;
+  position: relative;
+  object-fit: cover;
+}
+
+hgroup {
+  font-family: 'Libre Baskerville', serif;
+  text-shadow: 2px 2px 4px black;
+  padding-left: 10px;
+}
+
+
+/*Main*/
+.info {
+  width: 70%;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: black;
+  background: hsl(0, 0%, 93%);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 7px -4px rgba(0, 0, 0, 0.70);
+}
+
+.caja {
+  width: 70%;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: black;
+  background: #f8ecc9;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 5px 5px 7px -4px rgba(0, 0, 0, 0.70);
+}
+
+.caja:hover {
+  background-color: #fdf8e8;
+}
+
+hr {
+  border: 1px solid #e6e6e6;
+  margin: 30px 0 30px 0;
+}
+
+#contact {
+  font-family: 'Mynerve';
+  font-size: larger;
+  text-align: center;
+}
+
+/*EmailJS*/
+#form {
+  width: 260px;
+  margin: auto;
+}
+
+.field {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #777;
+}
+
+.field input {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: auto;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: #3e045f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+/*Footer*/
+footer {
+  padding-top: 50px;
+  size: 30px;
+}
+
+footer .content {
+  text-align: center;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0 0 30px;
+  margin: 0 0 30px;
+  color: #3e045f;
+}
+
+footer .social {
+  display: flex;
+  padding: 0 0 0 0;
+  justify-content: center;
+  font-size: 25px;
+  margin: 0 0 20px;
+}
+
+footer .social li {
+  padding: 0 10px 0 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.infoFooter {
+  text-align: center;
+  color: #848484;
+  font-size: small;
+}

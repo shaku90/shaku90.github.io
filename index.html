@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV de Belascoain</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ba75743f8c.js" crossorigin="anonymous"></script>
+  <!-- EmailJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    emailjs.init('AAoWuTnjiIqNVmkDb')
+  </script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div>
+      <img src="cv_profile.jpg" alt="foto de Facundo Belascoain">
+    </div>
+    <hgroup>
+      <h2>Facundo Belascoain Kirby</h2>
+      <h3>Curriculum vitae</h3>
+    </hgroup>
+  </header><br>
+
+  <!-- Main -->
+  <main>
+    <article class="info">
+      <div class="izq">
+        <h3>Información personal</h3>
+        <p class="texto">Me llamo Facundo y vivo en Santa Lucía (San Juan). Soy bibliotecario y profesor.</p>
+        <p class="texto">Actualmente trabajo como bibliotecario en una escuela secundaria y doy clases
+          en un instituto de formación técnica en Bibliotecología.</p>
+      </div>
+      <div class="der">
+        <h3>Contacto</h3>
+        <p><i class="fa-regular fa-envelope"></i> facundo-belascoain@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> 2645858006</p>
+      </div>
+    </article><br>
+
+    <article class="caja">
+      <h3>Experiencia</h3>
+      <p><strong>Escuela Alejandro María de Aguado</strong> — Bibliotecario<br>
+        <span style="color: gray;">Marzo de 2018 - Presente</span>
+      </p>
+      <p><strong>ISFT Escuela de Bibliotecología</strong> — Profesor de Clasificación<br>
+        <span style="color: gray;">Abril de 2021 - Presente</span>
+      </p>
+      <p><strong>ISFT Escuela de Bibliotecología</strong> — Profesor de Catalogación<br>
+        <span style="color: gray;">Abril de 2021 - Presente</span>
+      </p>
+      <p><strong>Hostel San Juan</strong> — Recepcionista<br>
+        <span style="color: gray;">2015 - 2017</span>
+      </p>
+      <p><strong>Radio General San Martín</strong> — Operador<br>
+        <span style="color: gray;">2013</span>
+      </p>
+      <p><strong>Alternativ</strong> — Organizador de eventos, DJ<br>
+        <span style="color: gray;">2010 - 2019</span>
+      </p>
+    </article><br>
+
+    <article class="caja">
+      <h3>Educación</h3>
+      <p><strong>Instituto Alemán</strong> — Portugués A1<br>
+        <span style="color: gray;">2018</span>
+      <p><strong>Instituto Alemán</strong> — Goethe Zertifikat Start Deutsch 1<br>
+        <span style="color: gray;">2016</span>
+      <p><strong>ISFT Escuela de Bibliotecología</strong> — Bibliotecario Nacional<br>
+        <span style="color: gray;">2013 - 2016</span>
+    </article><br>
+  </main>
+
+  <article class="caja">
+    <h3>Habilidades</h3>
+    <p>Buen manejo de sistemas operativos, software de diseño, editores de video y editores de audio.
+      Uso de software de gestión bibliotecaria Aguapey y Koha.</p>
+  </article>
+
+  <hr>
+
+  <!-- Enviar email -->
+  <p id="contact">Contactame!</p>
+
+  <form id="form">
+    <div class="field">
+      <label for="from_name">Tu nombre</label>
+      <input type="text" name="from_name" id="from_name">
+    </div>
+    <div class="field">
+      <label for="message">Mensaje</label>
+      <input type="text" name="message" id="message">
+    </div>
+    <div class="field">
+      <label for="email_id">Tu email</label>
+      <input type="text" name="email_id" id="email_id">
+    </div>
+
+    <input type="submit" id="button" value="Enviar email">
+  </form>
+
+  <script src="javascript.js"></script>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container"></div>
+    <div class="content">
+      <ul class="social">
+        <li><a href="https://www.facebook.com/Shaku242"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/shaku.90/"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/facundo-belascoain-9756a4231/"><i
+              class="fa-brands fa-linkedin"></i></a></li>
+      </ul>
+      <p>Mis redes sociales</p>
+    </div>
+    <div class="infoFooter">
+      <p>Este CV fue realizado para aplicar lo aprendido en el curso Front End dictado por Argentina Programa 4.0</p>
+      <p>Para el formulario de contacto se utilizó EmailJS - www.emailjs.com - ¡Probado y funcionando!</p>
+    </div>
+  </footer>
+</body>
+
+</html>
